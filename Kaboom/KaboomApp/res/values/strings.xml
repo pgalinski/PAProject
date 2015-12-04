@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SolarTeam</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_devices_connected">No devices connected</string>
+    <string name="send_bt_label">send</string>
+
+    <!--driving styles-->
+    <string name="eco">ECO</string>
+    <string name="normal">NORMAL</string>
+    <string name="not_eco">NOT ECO</string>
+
+
+    <string name="eco_drive">ECO\nDRIVE</string>
+    <string name="speed">PRĘDKOŚĆ</string>
+    <string name="speed_unit_kmh">km/h</string>
+    <string name="avg_speed_label">PRĘDKOŚĆ\nŚREDNIA</string>
+    <string name="max_speed_label">PRĘDKOŚĆ\nMAX.</string>
+    <string name="oustide_temp_label">TEMPERATURA\nZEWNĘTRZNA</string>
+    <string name="inside_temp_label">TEMPERATURA\nWEWNĘTRZNA</string>
+    <string name="traveled_distance_label">DYSTANS\nPOKONANY</string>
+    <string name="distance_to_go_label">DYSTANS\nDO POKONANIA</string>
+    <string name="unit_volt">V</string>
+    <string name="avg_energy_consumption_label">MOC\nZUŻYWANA</string>
+    <string name="battery_level_label">NAŁADOWANIE\nBATERII</string>
+    <string name="gathering_energy_label">MOC\nSOLARNA</string>
+    <string name="distance_km_unit">km</string>
+    <string name="temp_celsius_unit">℃</string>
+    <string name="gear_drive_label">D</string>
+    <string name="gear_neutral_label">N</string>
+    <string name="gear_backward_label">R</string>
+    <string name="drive_direction_label">KIERUNEK\nJAZDY</string>
+    <string name="eco_e">E</string>
+    <string name="eco_c">C</string>
+    <string name="eco_o">O</string>
+    <string name="unit_wat">W</string>
+    <string name="unit_kwat">kW</string>
+    <string name="gathered_energy_label">MOC\nPOBIERANA</string>
+    <string name="reset_to_default">PRZYWRÓĆ USTAWIENIA DOMYŚLNE</string>
+    <string name="cancel">ANULUJ</string>
+    <string name="save">ZAPISZ</string>
+    <string name="requests_frequency">CZĘSTOTLIWOŚĆ WYSYŁANIA ZAPYTAŃ</string>
+    <string name="unit_second">s</string>
+    <string name="clear">WYCZYŚĆ</string>
+    <string name="settings_traveled_distance">PRZEJECHANY DYSTANS</string>
+    <string name="settings_avg_speed">PRĘDKOŚĆ ŚREDNIA</string>
+    <string name="settings_max_speed">PRĘDKOŚĆ MAX.</string>
+    <string name="settings_travel_data">STAN LICZNIKÓW</string>
+    <string name="no">NIE</string>
+    <string name="yes">TAK</string>
+    <string name="attention">Uwaga</string>
+    <string name="clear_question">Czy na pewno chcesz wyczyścic stan liczników?</string>
+    <string name="reset_question">Czy na pewno chcesz przywrócić ustawienia domyślne?</string>
+    <string name="no_bluetooth">Brak modułu bluetooth</string>
+    <string name="bluetooth_disconnected">Odłączono urządzenie bluetooth</string>
+    <string name="couldnt_connect_bluetooth">Nie udało się połączyć z urządzeniem</string>
+    <string name="connected">Połaczono</string>
+    <string name="bluetooth_wasnt_enabled">Bluetooth nie został włączony</string>
+    <string name="unit_percentage">%</string>
+    <string name="disconnect_button_label">ROZŁĄCZ</string>
+    <string name="connect_with_other_button_label">POŁĄCZ Z INNYM URZĄDZENIEM</string>
+    <string name="connect_button_label">POŁĄCZ Z ANDROIDEM</string>
+    <string name="menu_header">MENU</string>
+
+</resources>

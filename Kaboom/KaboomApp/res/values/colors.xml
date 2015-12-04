@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+
+
+    <color name="default_text_color">@color/white</color>
+    <color name="text_light_grey">#ffb9b9ba</color>
+
+    <color name="dark_grey_background">#ff242a34</color>
+    <color name="dark_orange">#ffc5665c</color>
+    <color name="grey">#ff585c61</color>
+    <color name="grey_separator">#ff878a8e</color>
+    <color name="grey_indicator">#ff878a8e</color>
+    <color name="red_alert">#ffff0000</color>
+
+    <color name="eco_off">#ff585c61</color>
+    <color name="eco_on">#ffc5665c</color>
+
+    <color name="gear_inactive">#ff585c61</color>
+    <color name="gear_active">#ffc5665c</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey_background"
+    android:paddingBottom="20dp"
+    >
+
+    <TextView
+        style="@style/default_text"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/menu_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        style="@style/separator_grey"/>
+
+
+    <Button
+        android:id="@+id/menu_connect_with_android"
+        style="@style/button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_button_label"
+        />
+
+    <Button
+        android:id="@+id/menu_connect_with_other"
+        style="@style/button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_with_other_button_label"
+        />
+
+    <Button
+        android:id="@+id/menu_disconnect"
+        style="@style/button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnect_button_label"
+        />
+
+
+</LinearLayout>
