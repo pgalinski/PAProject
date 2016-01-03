@@ -1,1 +1,1 @@
-include ':KaboomApp', ':BluetoothSPPLibrary'
+include ':KaboomApp', ':BluetoothSPPLibrary', 'pure2D'

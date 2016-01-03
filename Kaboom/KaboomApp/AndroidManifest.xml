@@ -2,37 +2,39 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="pl.pg.kaboom"
     android:versionCode="2"
-    android:versionName="Solar v0.07"
-    >
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    android:versionName="Solar v0.07">
 
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="22" />
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+        android:name=".KaBoomApplication_"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-        android:name=".KaBoomApplication_"
-        >
+        android:theme="@style/AppTheme">
         <receiver
             android:name=".DataBroadcastReceiver_"
             android:enabled="true"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
-                <action android:name="pl.net.amg.solarteam.DATA_RECEIVED"/>
+                <action android:name="pl.net.amg.solarteam.DATA_RECEIVED" />
             </intent-filter>
         </receiver>
 
-
-        <activity android:name="app.akexorcist.bluetotohspp.library.DeviceList" android:screenOrientation="landscape"/>
-
-        <activity android:name="pl.pg.kaboom.activity.MainMenuActivity_"
+        <activity
+            android:name="app.akexorcist.bluetotohspp.library.DeviceList"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.MainMenuActivity_"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +42,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".activity.GameMainActivity"></activity>
     </application>
 
 </manifest>

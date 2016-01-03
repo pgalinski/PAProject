@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 22
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+}
+
+dependencies {
+    compile 'org.jbox2d:jbox2d-library:2.1.2.2'
+    //compile 'org.slf4j:slf4j-android:1.6.1-RC1'
+}
